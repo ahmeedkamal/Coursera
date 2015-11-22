@@ -5,10 +5,8 @@ import matplotlib.pyplot as pyplot
 
 aData = pandas.read_csv('ool_pds.csv', low_memory=False)
 
-# W1_D1: how would you rate obama
-# W1_D11: how would you rate the republican party
-# W1_D12: how would you rate the democratic party
-# invalid data -1 and 998
+# W1_A11: Frequency of watching national news
+# invalid data -1 
 # PPAGE: age
 aSubData = aData[['PPAGE' , 'W1_A11']]
 
